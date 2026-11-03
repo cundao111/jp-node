@@ -3,7 +3,7 @@ import json, shutil, time, sys
 
 path = "/etc/v2node/config.json"
 backup = f"{path}.bak.{time.strftime('%Y%m%d-%H%M%S')}"
-node_id = 202
+node_id = 240
 
 with open(path, "r", encoding="utf-8") as f:
     cfg = json.load(f)
